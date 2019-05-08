@@ -1,50 +1,50 @@
-Hábitos de alimentación 
+HÃ¡bitos de alimentaciÃ³n 
 
-¿Cuantas comidas realiza al día?
-¿Que suele desayunar?
-¿Cuantas piezas de fruta consume al día?
-¿Cuantas piezas de verdura consume al día?
-¿Cuantos litros de agua bebe diariamente?
-¿Cuanto pescado consume a la semana?
-¿Cuanta carne consume a la semana?
-¿Cuantos hidratos de carbono consume a la semana(arroz, pasta)?
-¿Come pan con las comidas?
-¿Desayuna o toma a media mañana tostada/s?
-¿Cuantos productos lácteos consume al día?
-¿Consume snacks frecuentemente?
-¿Toma alcohol?
-¿Suele beber agua u otro tipo de bebidas en las comidas?
-¿Consume muchos alimentos con una cantidad considerable de azúcar?
-¿Usted piensa que realiza una dieta equilibrada?
-¿Estima que normalmente ingiere más o menos una cantidad de calorías normal para un adulto(2000 kcal)?
-¿Cuantas calorias suele consumir al día?
-¿Suele ir a comer a restaurantes de comida rápida?
-¿Suele comer entre horas(picar)?
-
-
-Actividad física
-
-¿Cuantas horas a la semana realiza ejercicio?
-¿Como se reparten esas horas a lo largo del día?
-¿Practica algún deporte en particular? ¿Cual/Cuales?
-¿Es constante en la realización de actividad física?
-¿Considera que lleva una vida sedentaria?
-¿Cuantas horas camina al día?
-¿Va al gimnasio?
-¿Cuantas horas va al gimnasio?
+Â¿Cuantas comidas realiza al dÃ­a?
+Â¿Que suele desayunar?
+Â¿Cuantas piezas de fruta consume al dÃ­a?
+Â¿Cuantas piezas de verdura consume al dÃ­a?
+Â¿Cuantos litros de agua bebe diariamente?
+Â¿Cuanto pescado consume a la semana?
+Â¿Cuanta carne consume a la semana?
+Â¿Cuantos hidratos de carbono consume a la semana(arroz, pasta)?
+Â¿Come pan con las comidas?
+Â¿Desayuna o toma a media maÃ±ana tostada/s?
+Â¿Cuantos productos lÃ¡cteos consume al dÃ­a?
+Â¿Consume snacks frecuentemente?
+Â¿Toma alcohol?
+Â¿Suele beber agua u otro tipo de bebidas en las comidas?
+Â¿Consume muchos alimentos con una cantidad considerable de azÃºcar?
+Â¿Usted piensa que realiza una dieta equilibrada?
+Â¿Estima que normalmente ingiere mÃ¡s o menos una cantidad de calorÃ­as normal para un adulto(2000 kcal)?
+Â¿Cuantas calorias suele consumir al dÃ­a?
+Â¿Suele ir a comer a restaurantes de comida rÃ¡pida?
+Â¿Suele comer entre horas(picar)?
 
 
-Según las respuestas obtenidas, se obtendrá una puntuación específica sobre los hábitos de alimentación y la actividad física. Dependiendo de esta nota, se determinará si el usuario está actualmente ganando peso, manteniéndose(intervalo +/- 0.5 kg) o perdiendo peso.
-Luego se le preguntará cual es su objetivo
+Actividad fÃ­sica
+
+Â¿Cuantas horas a la semana realiza ejercicio?
+Â¿Como se reparten esas horas a lo largo del dÃ­a?
+Â¿Practica algÃºn deporte en particular? Â¿Cual/Cuales?
+Â¿Es constante en la realizaciÃ³n de actividad fÃ­sica?
+Â¿Considera que lleva una vida sedentaria?
+Â¿Cuantas horas camina al dÃ­a?
+Â¿Va al gimnasio?
+Â¿Cuantas horas va al gimnasio?
+
+
+SegÃºn las respuestas obtenidas, se obtendrÃ¡ una puntuaciÃ³n especÃ­fica sobre los hÃ¡bitos de alimentaciÃ³n y la actividad fÃ­sica. Dependiendo de esta nota, se determinarÃ¡ si el usuario estÃ¡ actualmente ganando peso, manteniÃ©ndose(intervalo +/- 0.5 kg) o perdiendo peso.
+Luego se le preguntarÃ¡ cual es su objetivo
 
 
 Objetivo
-¿Quiere perder peso?
-¿Quiere mantenerse?
-¿Quiere ganar peso?
-(Solo puede responderse de forma afirmativa una y siempre una de ellas)
+Â¿Quiere perder peso?
+Â¿Quiere mantenerse?
+Â¿Quiere ganar peso?
+(Asignar un nÃºmero a cada una y que el usuario introduzca su respuesta)
 
-Según la respuesta de objetivo y la evaluación realizada a la persona, se le darán unas recomendaciones si su objetivo no se corresponde con los hábitos que posee. En el caso de que su objetivo concuerde con la evaluación, se le dirá que va por buen camino y en todo caso se le recomendarán algunos aspectos que puedan servirle para cuidar más por su salud. 
+SegÃºn la respuesta de objetivo y la evaluaciÃ³n realizada a la persona, se le darÃ¡n unas recomendaciones si su objetivo no se corresponde con los hÃ¡bitos que posee. En el caso de que su objetivo concuerde con la evaluaciÃ³n, se le dirÃ¡ que va por buen camino y en todo caso se le recomendarÃ¡n algunos aspectos que puedan servirle para cuidar mÃ¡s por su salud. 
 
 
 Recomendaciones
@@ -54,6 +54,6 @@ Recomendaciones
 
 
 
-ESTRUCTURA DE LA APLICACIÓN 
+ESTRUCTURA DE LA APLICACIÃ“N 
 
-Dividir la aplicación en módulos, de forma que tenga un módulo de hábitos alimenticios, donde realice preguntas sobre estos, y según estas respuestas asignar puntuaciones que se acumulan en una variable global única. El siguiente módulo será el de ejercicio físico, donde se realizan también preguntas, se le asignan unas puntuaciones y estas se guardan en la misma variable global. Luego exisitiría el módulo de evaluación, donde dependiendo de la nota obtenida en la variable global y las características del usuario(peso, altura...) ¿que se pedirán en este módulo final o al principio de la aplicación?, se determina si el usuario ganará, perderá o mantendrá, según unos estándares que definiremos nosotros, y se le darán las recomendaciones.
+Dividir la aplicaciÃ³n en mÃ³dulos, de forma que tenga un mÃ³dulo de hÃ¡bitos alimenticios, donde realice preguntas sobre estos, y segÃºn estas respuestas asignar puntuaciones que se acumulan en una variable global Ãºnica. El siguiente mÃ³dulo serÃ¡ el de ejercicio fÃ­sico, donde se realizan tambiÃ©n preguntas, se le asignan unas puntuaciones y estas se guardan en la misma variable global. Luego exisitirÃ­a el mÃ³dulo de evaluaciÃ³n, donde dependiendo de la nota obtenida en la variable global y las caracterÃ­sticas del usuario(peso, altura...) Â¿que se pedirÃ¡n en este mÃ³dulo final o al principio de la aplicaciÃ³n?, se determina si el usuario ganarÃ¡, perderÃ¡ o mantendrÃ¡, segÃºn unos estÃ¡ndares que definiremos nosotros, y se le darÃ¡n las recomendaciones.
