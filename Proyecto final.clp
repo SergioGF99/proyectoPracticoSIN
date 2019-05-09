@@ -385,7 +385,7 @@
 ;---------
 
 (defmodule EVALUACION
- (import defglobal ?*sum*))
+ (import defglobal ?*r*))
 
 ;Decir los resultados al usuario
  
