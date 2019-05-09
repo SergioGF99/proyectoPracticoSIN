@@ -40,6 +40,8 @@ Objetivo
 
 Según la respuesta de objetivo y la evaluación realizada a la persona, se le darán unas recomendaciones si su objetivo no se corresponde con los hábitos que posee. En el caso de que su objetivo concuerde con la evaluación, se le dirá que va por buen camino y en todo caso se le recomendarán algunos aspectos que puedan servirle para cuidar más por su salud. 
 
+De 0 a 50, debe ganar peso. De 50 a 100 debe mantenerse. De 100 en adelante debe perder peso.
+En las preguntas la respuesta saludable equivale a 0 y la no saludable a 10.
 
 Recomendaciones
 
