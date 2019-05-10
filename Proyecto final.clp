@@ -89,12 +89,12 @@
 		(printout t "Tienes un peso por debajo de los normal" crlf)
 		(bind ?*sum* 0)
 		
-	if(and (or (eq ?sexo H) (eq ?sexo M) ) (or ?imc>=18.5 ?imc<=24.9))
+	if(and (or (eq ?sexo H) (eq ?sexo M) ) (and (test >= (?imc 18.5) (test <= (?imc 24.9))) )
 		then 
 		(printout t "Tienes un peso normal" crlf)
 		(bind ?*sum* 10)
 		
-	if(and (or (eq ?sexo H) (eq ?sexo M) ) (or ?imc>=25  ?imc<=29.9 ))
+	if(and (or (eq ?sexo H) (eq ?sexo M) ) (and (test >= (?imc 25)) (test <= (?imc 29.9))) )
 		then
 		(printout t "Tienes sobrepeso" crlf)
 		(bind ?*sum* 50)
