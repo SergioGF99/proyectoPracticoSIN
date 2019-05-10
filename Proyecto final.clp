@@ -84,7 +84,7 @@
 (defrule calcular_imc
 	?imc <- ?peso / (altura * altura)
 =>
-	if(and (or (eq ?sexo H) (eq ?sexo M) )(?imc < 18.5))
+	if(and (or (eq ?sexo H) (eq ?sexo M) )(test < (?imc  18.5)) )
 		then 
 		(printout t "Tienes un peso por debajo de los normal" crlf)
 		(bind ?*sum* 0)
@@ -99,7 +99,7 @@
 		(printout t "Tienes sobrepeso" crlf)
 		(bind ?*sum* 50)
 		
-	if(and (or (eq ?sexo H) (eq ?sexo M) ) (or ?imc >= 30))
+	if(and (or (eq ?sexo H) (eq ?sexo M) ) (test >= (?imc 30)) )
 		then
 		(printout t "Tienes obesidad"  crlf)
 		(bind ?*sum* 90)
@@ -388,7 +388,22 @@
  (import defglobal ?*r*))
 
 ;Decir los resultados al usuario
- 
+
+(defrule r-resultados
+ (initial-fact)
+=>
+	if(and (test >= (?*r* 0)) (test <= (?*r* 50)) )
+		then 
+		(printout t "Debe ganar peso" crlf)
+	
+	if(and (test > (?*r* 50)) (test <= (?*r* 100)) )
+		then 
+		(printout t "Debe mantenerse en su peso actual")
+	
+	if(test > (?*r* 100) )
+		then 
+		(printout t "Debe perder peso")
+)
  
 ;----------------------------------------------------------------
 
